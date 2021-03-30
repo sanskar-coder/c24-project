@@ -21,11 +21,11 @@ class Rubber{
 			strokeWeight(4);
 			stroke("black");
 			fill("darkblue");
-            rectMode(CENTER)
+            
 			
 			//draw the ellipse here to display the rubber ball
             ellipseMode(RADIUS);
-			ellipseMode(0,0,this.r,this.r);
+			ellipse(0,0,this.r,this.r);
 			pop();
 	};
 
